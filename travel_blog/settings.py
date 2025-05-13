@@ -81,3 +81,7 @@ CLOUDINARY_STORAGE = {
     'API_KEY': os.environ.get('CLOUDINARY_API_KEY'),
     'API_SECRET': os.environ.get('CLOUDINARY_API_SECRET'),
 }
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://web-production-8dcb.up.railway.app',
+]
